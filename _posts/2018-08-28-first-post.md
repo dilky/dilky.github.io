@@ -6,5 +6,36 @@ categories: first test
 
 블로그 만들기 연습을 위한 첫번째 포스트
 
-*** mark down ***
-** mark down **
+마크다운 메뉴얼
+
+https://guides.github.com/features/mastering-markdown/
+
+# header1_#
+## header2_##
+###### header3_######
+
+*This text will be italic*
+_This will also be italic_
+
+**This text will be bold**
+__This will also be bold__
+
+_You **can** combine them_
+
+
+//////////////////////////////////
+
+Lists
+
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+  
+  
+//////////////////////////////////
+
+## Images
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
