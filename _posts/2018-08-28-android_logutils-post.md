@@ -7,7 +7,7 @@ categories: android log
 
 
 
-
+````
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -238,3 +238,4 @@ public final class LogUtil implements Serializable {
     }
 
 }
+````
