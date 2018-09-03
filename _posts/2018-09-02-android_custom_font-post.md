@@ -62,6 +62,7 @@ Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
 ## 4. 테마를 이용한 프로젝트 전체에 적용
 4.1 Custom 폰트스타일 정의
 여기에서는 TextView, Button, EditText, RadioButton, CheckBox에 나타나는 폰트만 적용하였다.
+```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="OneShinhanTextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
@@ -80,9 +81,9 @@ Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
         <item name="android:fontFamily">@font/one_shinhan</item>
     </style>
 </resources>
-
+```
 4.2 AppTheme에 Customfont 적용
-
+```
 <style name="AppTheme" parent="Theme.AppCompat.NoActionBar" >
 	...	
     <!-- custom font-->
@@ -93,14 +94,7 @@ Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
     <item name="android:textViewStyle">@style/OneShinhanTextViewStyle</item>
     ...
 </style>
-
-
-
-
-
-
-
-
+```
 
 
 
