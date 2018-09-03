@@ -55,8 +55,9 @@ res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입�
 ```
 
 3. 프로그램으로 폰트적용
+```
 Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
-
+```
 
 
 ## 4. 테마를 이용한 프로젝트 전체에 적용
