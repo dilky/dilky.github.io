@@ -32,7 +32,7 @@ font family는 스타일 및 굵기를(weight)를 함께 구성하는 세트다.
 1. 폰트패밀리 추가
 font 폴더에서 마우른 오른버튼 클릭하고 New > Font resource file '폰트패밀리명.xml' 입력 후 'OK'. 
 res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입력한다.
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:app="http://schemas.android.com/apk/res-auto">
     <font 
@@ -47,7 +47,7 @@ res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입�
 ```
 
 2. XML로 폰트패밀리 적용
-```
+```xml
 <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -55,7 +55,7 @@ res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입�
 ```
 
 3. 프로그램으로 폰트적용
-```
+```java
 Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
 ```
 
@@ -63,7 +63,7 @@ Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
 ## 4. 테마를 이용한 프로젝트 전체에 적용
 1. Custom 폰트스타일 정의 
 여기에서는 TextView, Button, EditText, RadioButton, CheckBox에 나타나는 폰트만 적용하였다.
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="OneShinhanTextViewStyle" parent="@android:style/Widget.DeviceDefault.TextView">
@@ -84,7 +84,7 @@ Typeface typeface = ResourcesCompat.getFont(context, R.font.myfont);
 </resources>
 ```
 2. AppTheme에 Customfont 적용
-```
+```xml
 <style name="AppTheme" parent="Theme.AppCompat.NoActionBar" >
 	...	
     <!-- custom font-->
