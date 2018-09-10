@@ -32,7 +32,7 @@ font family는 스타일 및 굵기를(weight)를 함께 구성하는 세트다.
 1. 폰트패밀리 추가
 font 폴더에서 마우른 오른버튼 클릭하고 New > Font resource file '폰트패밀리명.xml' 입력 후 'OK'. 
 res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입력한다.
-```
+~~~
 <?xml version="1.0" encoding="utf-8"?>
 <font-family xmlns:app="http://schemas.android.com/apk/res-auto">
     <font 
@@ -44,7 +44,7 @@ res/font/폰트패밀리명.xml 파일이 생성되면 아래의 내용을 입�
     	app:fontWeight="400" 
     	app:font="@font/myfont-Italic" />
 </font-family>
-```
+~~~
 
 2. XML로 폰트패밀리 적용
 ```xml
